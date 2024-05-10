@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Library_Management_043">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Bibliosync"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.Library_Management_043.activityserachBooks" />
+        <activity android:name="com.example.Library_Management_043.activityBorrow" />
+        <activity android:name="com.example.Library_Management_043.manageBranch" />
+        <activity android:name="com.example.Library_Management_043.managePublisher" />
+        <activity android:name="com.example.Library_Management_043.manageBooks" />
+        <activity android:name="com.example.Library_Management_043.memberMenu" />
+        <activity android:name="com.example.Library_Management_043.activitymemberLogin" />
+        <activity android:name="com.example.Library_Management_043.activityadminLogin" />
+        <activity android:name="com.example.Library_Management_043.activitysignup" />
+        <activity android:name="com.example.Library_Management_043.adminMenu" />
+        <activity android:name="com.example.Library_Management_043.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
